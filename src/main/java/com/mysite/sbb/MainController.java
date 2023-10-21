@@ -10,6 +10,6 @@ public class MainController {
     @GetMapping("/sbb")
     @ResponseBody
     public String index() {
-        return "뭉탱이월드에 오신걸 환영합니다.";
+        return "안녕하세요 sbb에 오신것을 환영합니다.";
     }
 }
